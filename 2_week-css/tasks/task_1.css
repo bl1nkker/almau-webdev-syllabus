@@ -18,7 +18,7 @@ h1{
     border-radius: 50%;
     transition: 0.5s;
 }
-.image:hover{
+img:hover{
     transform: scale(1.5);
 }
 
