@@ -1,0 +1,168 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    margin: 0;
+}
+
+h1{
+    font-size: 48px;
+    margin: 0;
+}
+
+hr{
+    border: 0;
+    border-top: 1px solid rgba(204, 204, 204, 0.422);
+    margin: 0;
+}
+
+button{
+    background-color: #FD481B;
+    border: 1px solid transparent;
+    padding: 12px 25px;
+    font-weight: bold;
+    color: white;
+    transition: .5s;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: white;
+    border: 1px solid #FD481B;
+    color: #FD481B;
+}
+
+a{
+    color: black;
+    text-decoration: none
+}
+
+.portfolio-know-more{
+    background-color: #FFD100;
+    color: #262626;
+}
+
+
+
+.content{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+.left-content{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-info{
+    flex: 1;
+}
+
+.right-content{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    background-color: #DED0C0;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+
+.right-content p{
+    text-align: center;
+    font-size: 20px;
+}
+
+.right-content span{
+    font-weight: 900;
+}
+.floating-image{
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.linked{
+    top: 25%;
+    right: 20%;
+}
+.git{
+    top: 50%;
+    left: 20%;
+}
+
+.instagram{
+    top: 75%;
+    right: 20%;
+}
+
+.right img{
+    width: 100%;
+}
+.profile-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 100%;
+    padding: 3em 10em;
+}
+
+.profile-info p{
+    font-size: 14px;
+}
+
+.contacts{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.social{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.social img{
+    width: 50%;
+    height: 50%;
+}
+
+.social h3{
+    font-size: 18px;
+}
+
+.social a{
+    font-size: 14px;
+}
+
+.profile-statisctics{
+    background-color: #262626;
+    color: white;
+    padding: 3em 10em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.stat-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.statistics-left{
+    width: 45%;
+
+}
+
+.statistics-right{
+    width: 45%;
+}
