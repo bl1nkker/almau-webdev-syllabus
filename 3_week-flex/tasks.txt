@@ -1,0 +1,4 @@
+Learn about how animations in css works
+1. Create ball in the portfolio page and animate it (make it rotate)
+2. Create animations for social media buttons on the right side of the page
+3. Create starter animation for the portfolio page

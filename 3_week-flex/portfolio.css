@@ -15,22 +15,6 @@ hr{
     margin: 0;
 }
 
-button{
-    background-color: #FD481B;
-    border: 1px solid transparent;
-    padding: 12px 25px;
-    font-weight: bold;
-    color: white;
-    transition: .5s;
-    cursor: pointer;
-}
-
-button:hover{
-    background-color: white;
-    border: 1px solid #FD481B;
-    color: #FD481B;
-}
-
 a{
     color: black;
     text-decoration: none
@@ -40,8 +24,6 @@ a{
     background-color: #FFD100;
     color: #262626;
 }
-
-
 
 .content{
     display: flex;
@@ -58,6 +40,27 @@ a{
 
 .profile-info{
     flex: 1;
+}
+
+.btn{
+    padding: 10px 25px;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+.hire{
+    background-color: #FD481B;
+    color: white;
+}
+.projects{
+    background-color: white;
+    color: black;
+    
+
+}
+
+.know-more{
+    background-color: #FFD100;
+    color: black;
 }
 
 .right-content{
