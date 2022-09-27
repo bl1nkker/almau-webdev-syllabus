@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <style>
+      body {
+        margin: 0;
+      }
+      p {
+        color: white;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+      .styles {
+        color: rgb(242, 239, 239);
+        font-size: 12px;
+      }
+      .many {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .container {
+        width: 100%;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .red {
+        background-color: rgb(255, 104, 104);
+      }
+      .blue {
+        background-color: rgb(99, 99, 255);
+      }
+      .green {
+        background-color: rgb(79, 186, 79);
+      }
+      .purple {
+        background-color: rgb(255, 104, 255);
+      }
+      .orange {
+        background-color: rgb(255, 165, 0);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container red">
+      <p>It's a red container</p>
+      <p class="styles">
+        width: 100%; height: 200px; display: flex; justify-content: center;
+        align-items: center; background-color: rgb(255, 104, 104);
+      </p>
+    </div>
+    <div class="container blue">
+      <p>It's a blue container</p>
+      <p class="styles">
+        width: 100%; height: 200px; display: flex; justify-content: center;
+        align-items: center; background-color: rgb(99, 99, 255);
+      </p>
+    </div>
+    <div class="container green">
+      <p>It's a green container</p>
+      <p class="styles">
+        width: 100%; height: 200px; display: flex; justify-content: center;
+        align-items: center; background-color: rgb(79, 186, 79);
+      </p>
+    </div>
+
+    <div class="many">
+      <div class="container red">
+        <p>It's a small red child container</p>
+        <p class="styles">
+          width: 100%; height: 200px; display: flex; justify-content: center;
+          align-items: center; background-color: rgb(255, 104, 104);
+        </p>
+        <p>I also have a parent with styles:</p>
+        <p class="styles">
+          display: flex; justify-content: center; align-items: center;
+        </p>
+      </div>
+      <div class="container blue">
+        <p>It's a small blue child container</p>
+        <p class="styles">
+          width: 100%; height: 200px; display: flex; justify-content: center;
+          align-items: center; background-color: rgb(99, 99, 255);
+        </p>
+        <p>I also have a parent with styles:</p>
+        <p class="styles">
+          display: flex; justify-content: center; align-items: center;
+        </p>
+      </div>
+    </div>
+    <div class="many">
+      <div class="container orange">
+        <p>It's a small orange child container</p>
+        <p class="styles">
+          width: 100%; height: 200px; display: flex; justify-content: center;
+          align-items: center; background-color: rgb(255, 165, 0);
+        </p>
+        <p>I also have a parent with styles:</p>
+        <p class="styles">
+          display: flex; justify-content: center; align-items: center;
+        </p>
+      </div>
+      <div class="container purple">
+        <p>It's a small purple child container</p>
+        <p class="styles">
+          width: 100%; height: 200px; display: flex; justify-content: center;
+          align-items: center; background-color: rgb(255, 104, 255);
+        </p>
+        <p>I also have a parent with styles:</p>
+        <p class="styles">
+          display: flex; justify-content: center; align-items: center;
+        </p>
+      </div>
+      <div class="container green">
+        <p>It's a small green child container</p>
+        <p class="styles">
+          width: 100%; height: 200px; display: flex; justify-content: center;
+          align-items: center; background-color: rgb(79, 186, 79);
+        </p>
+        <p>I also have a parent with styles:</p>
+        <p class="styles">
+          display: flex; justify-content: center; align-items: center;
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
