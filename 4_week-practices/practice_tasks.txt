@@ -1,0 +1,55 @@
+Projects To Practice HTML and CSS
+    = Every Project costs one "+"
+    = If someone completed every project they would have extra three "+"
+    = Creativity is Welcome! =
+
+1. Tribute Page
+    * Using HTML and CSS create simple tribute page
+    ! HTML tags that MUST be used: <h1>, <h2>, <h3>, <p>, <a>, <img>, <ul>, <li>, <div>
+    ! CSS properties that MUST be used: text-align, text-decoration, font-size, font-family, font-weight, color, background-color, flex, justify-content, align-items, padding, margin
+    # New HTML tags that CAN be used: <main>, <footer>
+    ~ Project topics you can choose:
+        - Steve Jobs
+        - Albert Einstein
+        - Alexander Graham Bell
+        - or any other person you like (!tribute pages to living people are not allowed... because it's tribute page, not a fan page, huh)
+    Example: https://olili27.github.io/Alan-Turing-Tribute-Page/
+
+2. Survey Form
+    * Using HTML and CSS create simple survey form 
+    ! HTML tags that MUST be used: <ul>, <li>, <div>, <form>, <input>, <label>, <select>, <option>, <textarea>, <button>
+    ! CSS properties that MUST be used: color, background-color, flex, justify-content, align-items, border, border-radius, padding, margin
+    ~ Project topics you can choose:
+        - Survey form about your favorite movie, book, song, anime,etc.
+        - Personal information form (what you like, what you don't like, etc.)
+        - Survey form about your favorite sport, hobby, anime, etc.
+        - or any other topic you like
+
+    Example: https://codepen.io/gregg50/pen/QWwOVKV
+
+3. Simple Landing Page
+    * Using HTML and CSS create simple landing page
+    ! HTML tags that MUST be used: <h1>, <h2>, <h3>, <p>, <a>, <img>, <ul>, <li>, <div>, <section>, <button>
+    ! CSS properties that MUST be used: color, background-color, flex, justify-content, align-items, border, border-radius, padding, margin, width, height
+    # New HTML tags that CAN be used: <main>, <footer>
+    ~ Project topics you can choose:
+        - Adidas landing page
+        - BMW landing page
+        - Apple landing page
+        - or any other topic you like
+    
+    Example: https://www.tesla.com/ (don't use animations or parallax effects, just simple landing page)
+
+4. Documentation page
+    * Using HTML and CSS create simple documentation page
+    ! HTML tags that MUST be used: <h1>, <h2>, <h3>, <p>, <a>, <img>, <ul>, <li>, <div>, <section>, <button>
+    ! CSS properties that MUST be used: color, background-color, flex, justify-content, align-items, border, border-radius, padding, margin, width, height
+    # New HTML tags that CAN be used: <main>, <footer>, <code>, <nav>
+    ~ Project topics you can choose:
+        - Documentation page about HTML
+        - Documentation page about CSS
+        - Documentation page about JavaScript
+        - or any other topic you like
+    
+    Example: https://www.geeksforgeeks.org/design-a-webpage-like-technical-documentation-using-html-css/
+        
