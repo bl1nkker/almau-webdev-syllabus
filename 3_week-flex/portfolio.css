@@ -1,3 +1,11 @@
+:root{
+    --primary-color: white;
+    --secondary-color: #262626;
+    --accent-color-orange: #FD481B;
+    --accent-color-yellow: #FFD100;
+    --image-bg-color: #DED0C0;
+}
+
 body{
     font-family: 'Roboto', sans-serif;
     height: 100vh;
@@ -16,13 +24,13 @@ hr{
 }
 
 a{
-    color: black;
+    color: var(--secondary-color);
     text-decoration: none
 }
 
 .portfolio-know-more{
-    background-color: #FFD100;
-    color: #262626;
+    background-color: var(--accent-color-yellow);
+    color: var(--secondary-color);
 }
 
 .content{
@@ -48,26 +56,26 @@ a{
     cursor: pointer;
 }
 .hire{
-    background-color: #FD481B;
-    color: white;
+    background-color: var(--accent-color-orange);
+    color: var(--primary-color);
 }
 .projects{
-    background-color: white;
-    color: black;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
     
 
 }
 
 .know-more{
-    background-color: #FFD100;
-    color: black;
+    background-color: var(--accent-color-yellow);
+    color: var(--secondary-color);
 }
 
 .right-content{
     width: 40%;
     height: 100%;
     display: flex;
-    background-color: #DED0C0;
+    background-color: var(--image-bg-color);
     flex-direction: column;
     justify-content: space-between;
     position: relative;
@@ -85,7 +93,7 @@ a{
     position: absolute;
     width: 64px;
     height: 64px;
-    background-color: white;
+    background-color: var(--primary-color);
     border-radius: 50%;
     padding: 10px;
 }
@@ -147,8 +155,8 @@ a{
 }
 
 .profile-statisctics{
-    background-color: #262626;
-    color: white;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
     padding: 3em 10em;
     display: flex;
     justify-content: space-between;

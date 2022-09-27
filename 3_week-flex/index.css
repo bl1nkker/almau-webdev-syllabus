@@ -1,0 +1,18 @@
+body{
+    display: flex;
+    margin: 0;
+}
+
+.right-container{
+    background-color: cadetblue;
+    width: 25%;
+    height: 100vh;
+
+}
+
+.left-container{
+    background-color: rgb(63, 139, 0);
+    width: 75%;
+    height: 100vh;
+
+}
