@@ -1,0 +1,69 @@
+.box-container{
+    /* Don't use pixels and fixed sizes */
+    /* width: 1500px;  */
+    /* Use %, vw, vh em, rem instead */
+    /* width: 100%; */
+    width: 100%; 
+    display: flex; 
+}
+.box{
+    width: 150px;
+    min-height: 150px;
+}
+
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
+.green{
+    background-color: green;
+}
+.orange{
+    background-color: orange;
+}
+.purple{
+    background-color: purple;
+}
+
+.text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+h1{
+    font-size: 64px;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    border: 3px cyan solid;
+}
+.text{
+    font-size: 1rem;
+}
+
+
+@media (max-width: 768px){
+    .box-container{
+        flex-direction: column;
+    }
+    .box{
+        min-height: 300px;
+    }
+    h1{
+        font-size: 2rem;
+    }
+    .content{
+        flex-direction: column;
+    }
+    .text{
+        font-size: .7rem;
+    }
+}
+
+img{
+    width: 80vw;
+} 

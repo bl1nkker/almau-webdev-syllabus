@@ -177,3 +177,17 @@ a{
 .statistics-right{
     width: 45%;
 }
+
+/* Delete this !!! */ 
+/* @media (max-width: 768px){
+    .content{
+        flex-direction: column;
+    }
+    .left-content{
+        width: 100%;
+    }
+    .right-content{
+        width: 100%;
+        height: fit-content;
+    }   
+} */
