@@ -1,10 +1,11 @@
 .box-container{
-    /* Don't use pixels and fixed sizes */
-    /* width: 1500px;  */
+    /* Don't use pixels on fixed sizes */
     /* Use %, vw, vh em, rem instead */
     /* width: 100%; */
+    /* width: 100%;  */
     width: 100%; 
     display: flex; 
+    flex-direction: row;
 }
 .box{
     width: 150px;
@@ -32,11 +33,13 @@
     flex-direction: column;
     justify-content: space-around;
     text-align: center;
+    
 }
 h1{
     font-size: 64px;
 }
 .content{
+    /* flex-wrap: wrap; */
     display: flex;
     justify-content: space-between;
     border: 3px cyan solid;
@@ -49,6 +52,7 @@ h1{
 @media (max-width: 768px){
     .box-container{
         flex-direction: column;
+        display: none;
     }
     .box{
         min-height: 300px;
@@ -66,4 +70,5 @@ h1{
 
 img{
     width: 80vw;
+    margin: auto;
 } 

@@ -52,4 +52,11 @@ Projects To Practice HTML and CSS
         - or any other topic you like
     
     Example: https://www.geeksforgeeks.org/design-a-webpage-like-technical-documentation-using-html-css/
-        
+
+5. Complex App
+    * Using HTML and CSS create a complex app
+    * Complex App must include:
+        - Left navigation bar
+        - Top navigation bar
+        - Catalog with cards (at least 5)
+        - Footer

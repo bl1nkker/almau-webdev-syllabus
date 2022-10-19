@@ -1,0 +1,159 @@
+:root{
+    --secondary-color: #2B2E34;
+    --primary-color: #212227;
+    --text-secondary-color: #2B2E34;
+    --text-primary-color:white;
+    --accent-color: orange;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    color: var(--text-primary-color);
+    font-family: 'Nabla', cursive;
+font-family: 'Silkscreen', cursive;
+}
+
+body{
+    background-color: var(--primary-color);
+    overflow: hidden;
+}
+
+button{
+    border: none;
+    background-color: transparent;
+}
+
+.nav-button p{
+    margin-left: 1em;
+}
+
+.icon{
+    width: 2em;
+    height: 2em;
+}
+
+nav{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--secondary-color);
+    padding: .8em 3em;
+    box-shadow: 0px 5px 10px 1px  black;
+    z-index: 10;
+}
+
+nav img{
+    width: 76px;
+}
+
+.nav-right-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-right-user{
+    
+    margin-left: 1em;
+}
+.nav-right-user-coins{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.user-avatar{
+    width: 3em;
+    height: 3em;
+    border: 3px plum solid;
+    border-radius: 50%;
+}
+
+.user-coins{
+    width: 1.8em;
+    height: 1.8em;
+}
+
+.nav-right-user-coins{
+    background-color: var(--primary-color);
+    padding: .2em .3em;
+    height: min-content;
+    border-radius: 30px;
+}
+
+input {
+    background-color: var(--primary-color);
+    border: none;
+    padding: 1em 1em;
+    border-radius: 10px;
+}
+
+
+.main-left-navigation{
+    width: 20vw;
+    height: 100vh;
+    background-color: var(--secondary-color);
+    /* box-shadow: 5px 5px 10px 1px  black; */
+    padding: 3em;
+}
+
+.main-content{
+    width: 75vw;
+    height: 100vh;
+}
+
+.main-content{
+    position: relative;
+    padding: 3em;
+}
+
+.main-decor{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 240px;
+}
+
+.main-decor-circle{
+    position: absolute;
+    width: 360px;
+    height: 360px;
+    background-color: lightcoral;
+    border-radius: 50%;
+    top: -5em;
+    z-index: 0;
+    right: -5em;
+}
+.main-content-title{
+    color: var(--accent-color);
+    font-size: .8em;
+}
+
+.main-content-game{
+    /* letter-spacing: .8em; */
+    font-size: 2em;
+}
+
+.main-content-tournament h3{
+    font-size: 1.5em;
+    color: #d3d3d3;
+}
+
+.main-content-tournament h5{
+    font-size: 1.2em;
+    color: #d3d3d3;
+}
+
+.main-content-button{
+    background-color: #0860DC;
+    padding: 1em 3em;
+    border-radius: 10px;
+    z-index: 999;
+}
+
+.main-content-container span{
+    color: gray;
+}
