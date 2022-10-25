@@ -1,0 +1,11 @@
+Responsive Landing Page
+    * Using HTML and CSS create simple landing page
+    ! HTML tags that MUST be used: <h1>, <h2>, <h3>, <p>, <a>, <img>, <ul>, <li>, <div>, <section>, <button>
+    ! CSS properties that MUST be used: color, background-color, flex, justify-content, align-items, border, border-radius, padding, margin, width, height
+    # New HTML tags that CAN be used: <main>, <footer>
+    ~ Requirements:
+        - Top Navigation Bar with logo and 3 links
+        - Google Fonts used
+        - 3 cards with image, title, description, and button
+        - Page must be responsive
+        - Page must be accessible
