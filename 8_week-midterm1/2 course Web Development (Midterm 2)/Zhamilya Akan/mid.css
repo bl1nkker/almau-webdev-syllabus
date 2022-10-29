@@ -1,0 +1,79 @@
+header ul {
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  header a {
+    color: #fff;
+    text-decoration: none;
+    padding: .5em 1em;
+  }
+
+  header {
+    background-color: #222222;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: .5em;
+  }
+  body {
+  background-color: #222222;
+  }
+
+  main .title {
+    font-size: 300%;
+    font-style: normal;
+    font-weight: bold;
+    color: #fff;
+  }
+
+  main {
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: column;
+  }
+
+  .cards li {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-flow: column;
+  }
+
+  .cards h2 {
+  color: #fff;
+  }
+
+  .cards p {
+  color: #fff;
+  padding: 0 10% 0 10%;
+  }
+
+  .cards button{
+   background-color: white;
+   color: 222222;
+   border-radius: 20%;
+   margin: 0em;
+   padding: 1em;
+}
+
+ul {
+display: flex;
+justify-content: space-around;
+}
+
+@media (max-width: 768px){
+    ul {
+        flex-direction: column;
+        align-items: center;
+    }
+   .cards li {
+    width: 90%;
+   }
+}
