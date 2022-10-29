@@ -1,0 +1,44 @@
+body {
+    background: url("https://avatars.mds.yandex.net/i?id=a1162acba297770a6899a1302d017407-5171950-images-thumbs&n=13");
+    margin:0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+
+}
+.card {
+    width:400px;
+    margin: 30px auto;
+    background-color: rgb(217, 198, 198);
+    box-shadow: 0 5px 10px #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    border: 5px solid #ccc;
+    
+}
+.card-photo{
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+.card-title{
+    font-size: 20px;
+    text-align: center;
+    color: rgb(57, 167, 149);
+}
+.card-text{
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.card-subtitle{
+    font-size: 14px;
+    color:rgb(23, 111, 82);
+}
+.card-list{
+    padding-left: 0;
+    list-style-position: inside;
+    font-size: 14px;
+}

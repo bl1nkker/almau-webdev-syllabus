@@ -1,0 +1,81 @@
+body{
+    background-color: rgb(203, 125, 182);
+}
+
+.navbar{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.pri-nav{
+    text-decoration: none;
+    list-style: none;
+    margin:0 100px;
+    color: white;
+}
+.nav-img{
+    margin: 0 25px;
+}
+.main-question{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.flex-conteiner{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.a{
+    flex-wrap: wrap;
+}
+.link_fullmetall{
+    padding: 10px;
+    font-size: 20px;
+    background-color: orange;
+    border-radius: 10px;
+    border: none;
+    margin: 0 50px;
+}
+.link_SAO{
+    padding: 10px;
+    font-size: 20px;
+    background-color: orange;
+    border-radius: 10px;
+    border: none;
+    margin: 0 50px;
+}
+.link_hodt{
+    padding: 10px;
+    font-size: 20px;
+    background-color: orange;
+    border-radius: 10px;
+    border: none;
+    margin: 0 50px;
+}
+.link_ngnl{
+    padding: 10px;
+    font-size: 20px;
+    background-color: orange;
+    border-radius: 10px;
+    border: none;
+    margin: 0 50px;
+}
+
+@media screen and (max-width: 768px){
+    
+    .nav-bar{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: left;
+    }
+    .pri-nav{
+        color: crimson;
+    }
+
+    .flex-conteiner{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

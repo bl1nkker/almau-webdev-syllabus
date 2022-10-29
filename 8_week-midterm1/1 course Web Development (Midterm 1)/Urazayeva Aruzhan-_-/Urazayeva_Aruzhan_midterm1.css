@@ -1,0 +1,98 @@
+*{
+    box-sizing: border-box;
+    background-color: black;
+    color:pink;
+}
+.logo{
+    cursor: pointer;
+    
+}
+body{
+    padding: 0 0 1em;
+}
+header{
+    position: relative;
+    left: 0;
+    top:0;
+    margin: 0;
+    border: 2px solid #ffc0cb;
+    justify-content: space-between;
+    display: flex;
+}
+header ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header a{
+    text-align: end;
+    flex-direction: row;
+    font-family: "sofia",sans-serif;
+    display: table-cell;
+    padding: 0.5em 1em;
+    border-top: 5px;
+}
+main{
+    padding: 0 1em;
+}
+h1{
+    text-align: center;
+    font-size: 2.5em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.card_in{
+    float:none;
+    margin-right: 30px;
+    top: 40%;
+    right: 50%;
+    width: 245px;
+    height: 600px;
+    background: rgba(255, 255, 255, 0.09);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(16.1px);
+    -webkit-backdrop-filter: blur(16.1px);
+    border: 1px solid rgba(255, 255, 255, 0.42);
+
+}
+.card_in li{
+    margin-bottom: 1em;
+}
+.card_in h2{
+    margin: 0;
+    padding: 0.5em 1em;
+    font-family: 'Times New Roman', Times, serif;
+    font:2em;
+}
+.cards{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 5px;
+    padding: 5px;
+}
+button{
+    width: 252px ;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    cursor: pointer;
+    align-items: center;
+    width: 1.5em;
+    border: 0.5px;
+    padding: 5px;
+    border-radius: 2px;
+}
+button:hover{
+transform:scale(1.2);
+cursor: pointer;
+}
+h3{
+    cursor: pointer;
+}
+h2:hover{
+    transform: scale(1.5);
+    cursor:pointer;
+}

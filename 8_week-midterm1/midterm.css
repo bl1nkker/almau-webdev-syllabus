@@ -3,10 +3,8 @@
 :root{
     --secondary-color: #2B2E34;
     --primary-color: #212227;
-    --text-secondary-color: #2B2E34;
     --text-primary-color:white;
     --accent-color: orange;
-    /* --accent-color: #DC3F39; */
 }
 
 *{
