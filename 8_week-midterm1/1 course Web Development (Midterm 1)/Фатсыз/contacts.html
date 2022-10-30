@@ -1,0 +1,62 @@
+ <html>
+     <head>
+         <title>contacts</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2
+        family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="contacts.css">
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+         <script src="contacts.js"
+           ></script>
+         <script>
+
+         </script>
+     </head>
+     <body >
+     <img src="/img/mzzz.jpg" style="position: fixed;width: 100%;height: 100%;z-index: -1" alt="">
+     <header class="header" style="position: relative !important;">
+         <div class="container">
+             <div class="header_inner">
+                 <p class="word"><strong>DI.CUORE</strong></p>
+                 <nav class="nav">
+                     <a class="nav_link" href="main.html">Home</a>
+                     <a class="nav_link" href="owner.html">About</a>
+                     <a class="nav_link" href="registration.html">TOP10</a>
+                 </nav>
+             </div>
+         </div>
+     </header>
+     <div >
+         <div class="registercontainer">
+             <h1>Register</h1>
+
+             <p>Please fill in this form to create an account.</p>
+             <hr>
+
+             <label for="email"><b>Email</b></label>
+             <input type="text" placeholder="Enter Email" name="email" id="email" required>
+
+             <label for="psw"><b>Password</b></label>
+             <input type="password" placeholder="Enter Password"  id="psw" name="psw" id="psw" required>
+
+             <label for="psw-repeat"><b>Repeat Password</b></label>
+             <input type="password" placeholder="Repeat Password" id="psw-repeat"  name="psw-repeat" id="psw-repeat"  required>
+             <!--        <p style="color: red" id="passerror"></p>-->
+             <span style='color:red' id="passerror"> </span>
+             <hr>
+
+             <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+             <button id="registerbtn" type="submit" class="registerbtn">Register</button>
+
+
+             <div style="color: black !important; border-radius: 5px;font-size: 150%" class="container signin">
+                 <p>Already have an account? <a href="#">Sign in</a>.</p>
+             </div>
+         </div>
+
+     </div>
+
+</form>
+     </body>
+</html>

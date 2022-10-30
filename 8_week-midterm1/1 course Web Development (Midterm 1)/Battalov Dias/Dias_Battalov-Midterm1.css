@@ -11,8 +11,6 @@ body{
     overflow: hidden;
 }
 
-.akacuki{
-}
 
 nav ul{
     display: flex;
@@ -45,7 +43,6 @@ li a{
 .akacuki img{
 width: 10%;
 display: flex;
-justify-self: ;
 }
 .navig p{
     color: white;
