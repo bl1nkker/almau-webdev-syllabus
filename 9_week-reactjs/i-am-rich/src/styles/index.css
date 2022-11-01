@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-size: 6em;
+    color: white;
+}
+
+p{
+    font-size: 2em;
+    color: white;
+}
+.app{
+    height: 100vh;
+    background-color: #181820;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.ruby{
+    box-shadow: 0 0 10px 10px #9d3320;
+    border-radius: 50%;
+    width: 200px;
+    animation: glowing 2s ease-in-out infinite alternate;
+}
+
+@keyframes glowing {
+    from {
+        box-shadow: 0 0 10px 10px #9d3320;
+    }
+    to {
+        box-shadow: 0 0 50px 10px #9d3320;
+    }
+}
