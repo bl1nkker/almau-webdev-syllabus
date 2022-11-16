@@ -1,36 +1,48 @@
-import { useState } from 'react'
-import dice1 from './assets/dice1.png';
-import dice2 from './assets/dice2.png';
-import dice3 from './assets/dice3.png';
-import dice4 from './assets/dice4.png';
-import dice5 from './assets/dice5.png';
-import dice6 from './assets/dice6.png';
-
 import './App.css';
+import { useState } from 'react';
 
 function App() {
-  const diceArray = [dice1, dice2, dice3, dice4, dice5, dice6];
-  const [currentDice1, setCurrentDice1] = useState(dice1);
-  const [currentDice2, setCurrentDice2] = useState(dice1);
-  const changeDice = () => {
-    const randomDice1 = diceArray[Math.floor(Math.random() * diceArray.length)];
-    const randomDice2 = diceArray[Math.floor(Math.random() * diceArray.length)];
-    setCurrentDice1(randomDice1);
-    setCurrentDice2(randomDice2);
+  const [leftDiceNumber, setLeftDiceNumber] = useState(2);
+  const [rightDiceNumber, setRightDiceNumber] = useState(3);
+
+  const onButtonClicked = () =>{
+    console.log("Button clicked");
+    setLeftDiceNumber(6);
+    setRightDiceNumber(5);
+    console.log(leftDiceNumber, rightDiceNumber);
+  }
+
+  const onDefaultButtonClicked1 = () => {
+    console.log('Default button clicked 1');
+  }
+  const onDefaultButtonClicked2 = () => {
+    console.log('Default button clicked 2');
+    console.log('Default button clicked 2');
+  }
+  const onDefaultButtonClicked3 = () => {
+    console.log('Default button clicked 3');
+    console.log('Default button clicked 3');
+    console.log('Default button clicked 3');
   }
   return (
     <div className="App">
       <header>Dicee</header>
       <main>
-        <button onClick={changeDice}>
-            <img src={currentDice1} className="App-logo" alt="logo" />
-        </button>
-        <button onClick={changeDice}>
-            <img src={currentDice2} className="App-logo" alt="logo" />
-        </button>
+        <button onClick={onButtonClicked}><img src={require(`./assets/dice${leftDiceNumber}.png`)}/></button>
+        <button onClick={onButtonClicked}><img src={require(`./assets/dice${rightDiceNumber}.png`)}/></button>
       </main>
+      <DefaultButton func={onDefaultButtonClicked1} text='123'/>
+      <DefaultButton func={onDefaultButtonClicked2} text='Hello World'/>
+      <DefaultButton func={onDefaultButtonClicked3} text='Qwer'/>
     </div>
   );
 }
 
 export default App;
+
+function DefaultButton({
+  text,
+  func
+}) {
+  return <button onClick={func} class=''>Press Me {text}</button>
+}
